@@ -9,20 +9,12 @@ apps.
 
 - React & **React Native** (for Android, Web, Windows)
 - JavaScript & TypeScript
-- Flutter
-
-Currently learning web and mobile frontend development, and soon to the desktop.
+- Swift
 
 
-### 📊 Weekly Development Breakdown
-
-```txt
-From: 1 June 2024 - To: 06 June 2024
-
-Total Time: 9 hrs 21 mins
-
-TypeScript      3 hrs           ███████████▓░░░░░░░░░░░░░░░   48.04 %
-Javascript      3 hrs           ███████████▒░░░░░░░░░░░░░░░   48.06 %
-Flutter         21 mins         ██░░░░░░░░░░░░░░░░░░░░░░░░░   01.90 %
-                                
-```
+### Journey
+- 🔥 [21OSS](https://github.com/BroKarim/21oss) — Open-source catalog of production-ready tools and resources for developers.
+- 🌦️ [Zonapetik](https://github.com/kiramDz/tumbuh-baik) — Climate data forecasting and agricultural decision-support system.
+- 🧩 [OG Table](https://github.com/BroKarim/og-table) — Generate modern, themeable tables and export them as images.
+- 🤖 [AI Headshota](https://github.com/BroKarim/headshot-ai) — AI-generated professional headshots from a single photo.
+- 🧬 [OpenCrawl](https://github.com/BroKarim/opencrawl) — Crawl websites and reconstruct their design DNA into reusable UI.
