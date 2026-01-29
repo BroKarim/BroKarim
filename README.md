@@ -1,4 +1,4 @@
-<img src="assets/wave.svg" alt="wave" width="100%" />
+<img src="assets/wave.svg" alt="wave" width="60%" />
 
 I am **Karim**, a front-end developer building **mobile, web, and desktop** apps.
 
