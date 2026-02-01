@@ -1,30 +1,126 @@
-<img src="assets/wave.svg" alt="wave" width="60%" />
+<div align="center">
 
-I am **Karim**, a front-end developer building **mobile, web, and desktop** apps.
+# <img src="assets/wave.svg" alt="Wave" width="280" style="display: inline; margin-right: 8px;"> 
+
+<img src="assets/banner.png" alt="Karim's Banner" width="100%" style="border-radius: 12px; margin: 20px 0;">
+
+**Software developer building micro-SaaS products, open-source tools, and thoughtful user-focused applications**
+
+_Focused on clean code, system design, and automation_
+
+<br>
+
+[![Threads](https://img.shields.io/badge/🧵_Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.com/@brokariim)
+[![X](https://img.shields.io/badge/𝕏_Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/BroKariim)
+[![Website](https://img.shields.io/badge/🌐_Visit_My_Site-1f2937?style=for-the-badge)](https://www.brokarim.com)
+
+</div>
 
 ---
 
-### 🧑‍💻 Technologies & Tools
+## 🚀 What I Do
 
-- React & **React Native** (Android, Web, Windows)
-- JavaScript & TypeScript
-- Swift
+i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep building things for as long as I can. My journey started as a UI designer, which sparked my interest in web development, and has now led me to focus on macOS apps. Throughout that path, I care deeply about clean code, thoughtful architecture, and intuitive, human-friendly design.
+
+### 🎯 Current Focus
+
+- Building a **Link-in-Bio platform** with Next.js
+- Developing a **native macOS widget** using Swift
+- Maintaining and discussing **open-source projects** on X and Threads
 
 ---
 
-### 🚀 Journey
+## 🛠️ Tech Stack
 
-<!-- <img 
-  src="https://github.com/user-attachments/assets/c09caa82-d3eb-48e9-b218-d1293e272f76" 
-  alt="projects overview"
-  width="800"
-/> -->
+<div align="center">
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/8ee38953-f953-4992-bcf8-47518ee8f05a" />
+### Languages & Frameworks
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-- 🔥 [21OSS](https://github.com/BroKarim/21oss) — Open-source catalog of production-ready tools and resources.
-- 🌦️ [Zonapetik](https://github.com/kiramDz/tumbuh-baik) — Climate data forecasting for agriculture.
-- 🧩 [OG Table](https://github.com/BroKarim/og-table) — Themeable tables with image export.
-- 🤖 [AI Headshota](https://github.com/BroKarim/headshot-ai) — AI-generated professional headshots.
-- 🧬 [OpenCrawl](https://github.com/BroKarim/opencrawl) — Rebuild website design DNA into reusable UI.
+### Tools & Infrastructure
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+</div>
+
+---
+
+## 🌟 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔥 [21OSS](https://github.com/BroKarim/21oss)
+
+**Open-Source Developer Catalog**
+
+- Curated production-ready tools & resources
+- Content-driven and scalable architecture
+- Built with a strong focus on usability
+
+</td>
+<td width="50%">
+
+### 🌦️ [Zonapetik](https://github.com/kiramDz/tumbuh-baik)
+
+**Climate Forecasting Platform**
+
+- Agricultural forecasting using BMKG & NASA data
+- Holt-Winters & LSTM-based prediction pipelines
+- Research-driven project with real-world impact
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🧩 [OG Table](https://github.com/BroKarim/og-table)
+
+**Design Tool for Tables**
+
+- Themeable, presentation-ready tables
+- Export tables as images
+- Forked and refactored from ray-so
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<!-- <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=BroKarim&theme=github_dark" height="180em"> -->
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=BroKarim&layout=compact&theme=github_dark" height="180em">
+
+</div>
+
+---
+
+## 💬 Let's Connect
+
+I enjoy discussing **project architecture**, **automation**, and lessons learned from building (and shipping) open-source software. If you’re interested in collaboration, feedback, or just exchanging ideas—feel free to reach out.
+
+<div align="center">
+
+### 🤝 Get In Touch
+
+[![Threads](https://img.shields.io/badge/Threads-@brokariim-000000?style=flat-square&logo=threads&logoColor=white)](https://www.threads.com/@brokariim)
+[![X](https://img.shields.io/badge/X-@BroKariim-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/BroKariim)
+[![Email](https://img.shields.io/badge/Email-brokariim@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:brokariim@gmail.com)
+
+---
+
+_"Build things. Learn from data. Share what matters."_
+
+</div>
