@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="assets/wave.svg" alt="Wave" width="280" style="display: inline; margin-right: 8px;"> 
+# <img src="assets/wave.svg" alt="Wave" width="280" style="display: inline; margin-right: 8px;">
 
 <img src="assets/banner.png" alt="Karim's Banner" width="100%" style="border-radius: 12px; margin: 20px 0;">
 
@@ -21,12 +21,6 @@ _Focused on clean code, system design, and automation_
 ## 🚀 What I Do
 
 i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep building things for as long as I can. My journey started as a UI designer, which sparked my interest in web development, and has now led me to focus on macOS apps. Throughout that path, I care deeply about clean code, thoughtful architecture, and intuitive, human-friendly design.
-
-### 🎯 Current Focus
-
-- Building a **Link-in-Bio platform** with Next.js
-- Developing a **native macOS widget** using Swift
-- Maintaining and discussing **open-source projects** on X and Threads
 
 ---
 
@@ -96,14 +90,10 @@ i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep
 
 ---
 
-## 📊 GitHub Analytics
+## 🔥 Ongoing Project
 
-<div align="center">
-
-<!-- <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=BroKarim&theme=github_dark" height="180em"> -->
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=BroKarim&layout=compact&theme=github_dark" height="180em">
-
-</div>
+- 🐦 [iTweet](https://github.com/BroKarim/itweet) — GitHub Trending to Tweet 
+- 🪄 [iWish](https://github.com/BroKarim/iwish) — AI-Powered YouTube Transcription & Summarization
 
 ---
 
