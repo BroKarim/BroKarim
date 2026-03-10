@@ -49,7 +49,7 @@ i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep
 ## 🔥 Ongoing Project
 
 - [dzenn-pomodoro](https://github.com/dzenn-app/pomodoro) - Floating Pomodoro Timer for macOS
-- [dzenn-link-in-bio](https://github.com/dzenn-app/link-in-bio) - Not your ordinary linktree
+- [dzenn-link](https://github.com/dzenn-app/link-in-bio) - Not your ordinary linktree
 - [signature](https://github.com/BroKarim/signature) - Export animated hand-drawn signature as react component
 - [iTweet](https://github.com/BroKarim/itweet) — GitHub Trending to Tweet
 - [iWish](https://github.com/BroKarim/iwish) — AI-Powered YouTube Transcription & Summarization
