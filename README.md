@@ -46,55 +46,16 @@ i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep
 
 ---
 
-## 🌟 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔥 [21OSS](https://github.com/BroKarim/21oss)
-
-**Open-Source Developer Catalog**
-
-- Curated production-ready tools & resources
-- Content-driven and scalable architecture
-- Built with a strong focus on usability
-
-</td>
-<td width="50%">
-
-### 🌦️ [Zonapetik](https://github.com/kiramDz/tumbuh-baik)
-
-**Climate Forecasting Platform**
-
-- Agricultural forecasting using BMKG & NASA data
-- Holt-Winters & LSTM-based prediction pipelines
-- Research-driven project with real-world impact
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🧩 [OG Table](https://github.com/BroKarim/og-table)
-
-**Design Tool for Tables**
-
-- Themeable, presentation-ready tables
-- Export tables as images
-- Forked and refactored from ray-so
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🔥 Ongoing Project
 
-- 🐦 [iTweet](https://github.com/BroKarim/itweet) — GitHub Trending to Tweet 
-- 🪄 [iWish](https://github.com/BroKarim/iwish) — AI-Powered YouTube Transcription & Summarization
-
+- [dzenn-pomodoro](https://github.com/dzenn-app/pomodoro) - Floating Pomodoro Timer for macOS
+- [dzenn-link-in-bio](https://github.com/dzenn-app/link-in-bio) - Not your ordinary linktree
+- [signature](https://github.com/BroKarim/signature) - Export animated hand-drawn signature as react component
+- [iTweet](https://github.com/BroKarim/itweet) — GitHub Trending to Tweet
+- [iWish](https://github.com/BroKarim/iwish) — AI-Powered YouTube Transcription & Summarization
+- [21OSS](https://github.com/BroKarim/21oss) — Open-Source Developer Catalog
+- [Zonapetik](https://github.com/kiramDz/tumbuh-baik) — Climate Forecasting Platform **(thesis)**
+- [OG Table](https://github.com/BroKarim/og-table) - Design Tool for Tables
 ---
 
 ## 💬 Let's Connect
