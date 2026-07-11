@@ -80,7 +80,7 @@ def graphql_request(func_name, query, variables):
 # Quote of the Day (api.quotable.io)
 # ============================================================
 def fetch_quote():
-    """Fetch a random short inspirational quote (ideally ≤54 chars)"""
+    """Fetch a random short inspirational quote (ideally <40 chars)"""
     best = ("Code is poetry written in logic.", "Anonymous")
     best_len = 999
     attempts = [
@@ -99,7 +99,7 @@ def fetch_quote():
                 else:
                     text = data.get('content', '')
                     author = data.get('author', 'Unknown')
-                if len(text) <= 54:
+                if len(text) <= 40:
                     return text, author
                 if len(text) < best_len:
                     best = (text, author)

@@ -212,12 +212,10 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ......... </tspan><tspan x="970" y="170" text-anchor="end" class="value">TypeScript, Python, Swift</tspan>
 <tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan x="970" y="190" text-anchor="end" class="value">HTML, CSS, JSON, SQL, YAML, Markdown</tspan>
 <tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ...................... </tspan><tspan x="970" y="210" text-anchor="end" class="value">Indonesian, English</tspan>
-<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="230" class="cc"> </tspan>
 <tspan x="390" y="248" class="cc">. </tspan><tspan class="key">Quote</tspan>:<tspan class="cc"/>
-<tspan x="390" y="264" class="cc">. ┌───────────────────────────────────────────────────────────────────────────┐</tspan>
-<tspan x="390" y="280" class="cc">. │ </tspan><tspan x="410" y="280" class="value" id="quote_text">The real problem is not whether machines think but whether men do.</tspan><tspan x="970" y="280" text-anchor="end" class="cc">│</tspan>
-<tspan x="390" y="296" class="cc">. │ </tspan><tspan x="410" y="296" class="value" id="quote_author">~ B. F. Skinner</tspan><tspan x="970" y="296" text-anchor="end" class="cc">│</tspan>
-<tspan x="390" y="312" class="cc">. └───────────────────────────────────────────────────────────────────────────┘</tspan>
+<tspan x="410" y="280" class="value" id="quote_text">Keep away from people who try to belittle your ambitions.</tspan>
+<tspan x="410" y="296" class="value" id="quote_author">~ Mark Twain</tspan>
 <tspan x="390" y="340">- Contact</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="360" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .............................. </tspan><tspan x="970" y="360" text-anchor="end" class="value">brokariim@gmail.com</tspan>
 <tspan x="390" y="380" class="cc">. </tspan><tspan class="key">Threads</tspan>:<tspan class="cc"> ..................................... </tspan><tspan x="970" y="380" text-anchor="end" class="value">@brokariim</tspan>
@@ -225,7 +223,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="420" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan x="970" y="420" text-anchor="end" class="value">brokarim.com</tspan>
 <tspan x="390" y="460">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
 <tspan x="390" y="480" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">34</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan x="970" y="480" text-anchor="end"><tspan fill="#616e7f"/><tspan class="value" id="star_data">29</tspan></tspan>
-<tspan x="390" y="500" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">1,486</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan x="970" y="500" text-anchor="end"><tspan class="value" id="follower_data">19</tspan></tspan>
+<tspan x="390" y="500" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">1,487</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan x="970" y="500" text-anchor="end"><tspan class="value" id="follower_data">19</tspan></tspan>
 <tspan x="390" y="520" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc" id="loc_data_dots">...................... </tspan><tspan x="970" y="520" text-anchor="end" class="value" id="loc_data">TypeScript, Python, Swift</tspan>
 </text>
 </svg>
