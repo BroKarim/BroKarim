@@ -1,20 +1,9 @@
-<div align="center">
-
-# <img src="assets/wave.svg" alt="Wave" width="280" style="display: inline; margin-right: 8px;">
-
-<img src="assets/banner.png" alt="Karim's Banner" width="100%" style="border-radius: 12px; margin: 20px 0;">
-
-**Software developer building micro-SaaS products, open-source tools, and thoughtful user-focused applications**
-
-_Focused on clean code, system design, and automation_
-
-<br>
-
-[![Threads](https://img.shields.io/badge/🧵_Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.com/@brokariim)
-[![X](https://img.shields.io/badge/𝕏_Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/BroKariim)
-[![Website](https://img.shields.io/badge/🌐_Visit_My_Site-1f2937?style=for-the-badge)](https://www.brokarim.com)
-
-</div>
+<a href="https://github.com/BroKarim/BroKarim">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BroKarim/BroKarim/main/assets/dark_mode.svg">
+    <img alt="BroKarim's GitHub Profile README" src="https://raw.githubusercontent.com/BroKarim/BroKarim/main/assets/light_mode.svg">
+  </picture>
+</a>
 
 ---
 
@@ -56,11 +45,12 @@ i enjoy building **micro-SaaS** products, and my long-term dream is simple: keep
 - [21OSS](https://github.com/BroKarim/21oss) — Open-Source Developer Catalog
 - [Zonapetik](https://github.com/kiramDz/tumbuh-baik) — Climate Forecasting Platform **(thesis)**
 - [OG Table](https://github.com/BroKarim/og-table) - Design Tool for Tables
+
 ---
 
 ## 💬 Let's Connect
 
-I enjoy discussing **project architecture**, **automation**, and lessons learned from building (and shipping) open-source software. If you’re interested in collaboration, feedback, or just exchanging ideas—feel free to reach out.
+I enjoy discussing **project architecture**, **automation**, and lessons learned from building (and shipping) open-source software. If you're interested in collaboration, feedback, or just exchanging ideas—feel free to reach out.
 
 <div align="center">
 
