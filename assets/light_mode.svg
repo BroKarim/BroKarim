@@ -204,7 +204,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="30">brokarim@github</tspan> -———————————————————————————————————————————-—-
 <!-- content -->
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan x="970" y="50" text-anchor="end" class="value">macOS, Windows, android, shell</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan x="970" y="70" text-anchor="end" class="value" id="age_data">2+ years coding</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"></tspan><tspan x="970" y="70" text-anchor="end" class="value" id="age_data">2 years, 9 months, 11 days</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Expertise</tspan>:<tspan class="cc"> ...... </tspan><tspan x="970" y="90" text-anchor="end" class="value">Full Stack, Data Engineer, Automation</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Project</tspan>:<tspan class="cc"> ............................. </tspan><tspan x="970" y="110" text-anchor="end" class="value">dzenn-live, qoma</tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan x="970" y="130" text-anchor="end" class="value">VS Code, Xcode</tspan>
@@ -213,16 +213,18 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan x="970" y="190" text-anchor="end" class="value">HTML, CSS, JSON, SQL, YAML, Markdown</tspan>
 <tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ...................... </tspan><tspan x="970" y="210" text-anchor="end" class="value">Indonesian, English</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Building</tspan>:<tspan class="cc"> ...... </tspan><tspan x="970" y="250" text-anchor="end" class="value">Micro-SaaS, Open Source, macOS Apps</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Design</tspan>:<tspan class="cc"> ............. </tspan><tspan x="970" y="270" text-anchor="end" class="value">Clean Code, System Design, UX</tspan>
-<tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ............................... </tspan><tspan x="970" y="330" text-anchor="end" class="value">brokariim@gmail.com</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Threads</tspan>:<tspan class="cc"> ..................................... </tspan><tspan x="970" y="350" text-anchor="end" class="value">@brokariim</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">X</tspan>:<tspan class="cc"> ........................................... </tspan><tspan x="970" y="370" text-anchor="end" class="value">@BroKariim</tspan>
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan x="970" y="390" text-anchor="end" class="value">brokarim.com</tspan>
-<tspan x="390" y="430">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">50+</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan x="970" y="450" text-anchor="end"><tspan class="value">50+</tspan><tspan fill="#616e7f"> | </tspan><tspan class="value" id="star_data">1.2k+</tspan></tspan>
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">5,000+</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan x="970" y="470" text-anchor="end"><tspan class="value">5,000+</tspan><tspan fill="#616e7f"> | </tspan><tspan class="value" id="follower_data">500+</tspan></tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan x="970" y="490" text-anchor="end" class="value" id="loc_data">TypeScript, Python, Swift</tspan>
+<tspan x="390" y="248" class="cc">. </tspan><tspan class="key">Quote</tspan>:<tspan class="cc"/>
+<tspan x="390" y="264" class="cc">. ————————————————————————————————————————————————————————————————————————————</tspan>
+<tspan x="436" y="280" class="value" id="quote_text">Yesterday is but today's memory, tomorrow is today's dream.</tspan>
+<tspan x="436" y="296" class="value" id="quote_author">~ Kahlil Gibran</tspan>
+<tspan x="390" y="324">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="344" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ............................... </tspan><tspan x="970" y="344" text-anchor="end" class="value">brokariim@gmail.com</tspan>
+<tspan x="390" y="364" class="cc">. </tspan><tspan class="key">Threads</tspan>:<tspan class="cc"> ..................................... </tspan><tspan x="970" y="364" text-anchor="end" class="value">@brokariim</tspan>
+<tspan x="390" y="384" class="cc">. </tspan><tspan class="key">X</tspan>:<tspan class="cc"> ........................................... </tspan><tspan x="970" y="384" text-anchor="end" class="value">@BroKariim</tspan>
+<tspan x="390" y="404" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> .................................... </tspan><tspan x="970" y="404" text-anchor="end" class="value">brokarim.com</tspan>
+<tspan x="390" y="444">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="464" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">34</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan x="970" y="464" text-anchor="end"><tspan fill="#616e7f"/><tspan class="value" id="star_data">29</tspan></tspan>
+<tspan x="390" y="484" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">1,478</tspan><tspan fill="#616e7f"> | </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan x="970" y="484" text-anchor="end"><tspan class="value" id="follower_data">19</tspan></tspan>
+<tspan x="390" y="504" class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc" id="loc_data_dots">...................... </tspan><tspan x="970" y="504" text-anchor="end" class="value" id="loc_data">TypeScript, Python, Swift</tspan>
 </text>
 </svg>
