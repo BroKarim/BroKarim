@@ -330,6 +330,63 @@ def justify_format(root, element_id, new_text, length=0):
             dots_elem.text = ' ' + ('.' * just_len) + ' '
 
 
+def update_quote(root, quote_text, author_name):
+    """Update quote text with word wrapping, shifting subsequent elements down."""
+    max_chars = 54
+    line_h = 16
+
+    quote_text_elem = root.find(".//*[@id='quote_text']")
+    quote_author_elem = root.find(".//*[@id='quote_author']")
+    if quote_text_elem is None:
+        return
+
+    parent = quote_text_elem.getparent()
+    # Get SVG namespace from root
+    tag = root.tag
+    ns = tag[tag.index('{'):tag.index('}') + 1] if '}' in tag else ''
+
+    children = list(parent)
+    text_idx = children.index(quote_text_elem)
+    start_y = int(quote_text_elem.get('y'))
+
+    # Word wrap
+    words = quote_text.split()
+    lines = []
+    cur = ''
+    for w in words:
+        if not cur:
+            cur = w
+        elif len(cur) + 1 + len(w) <= max_chars:
+            cur += ' ' + w
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    num = len(lines)
+
+    # Remove all old quote elements (from text_idx up to Contact header)
+    for child in children[text_idx:]:
+        if child.get('x') == '390':
+            break
+        parent.remove(child)
+
+    # Insert wrapped lines + author (no shifting — Contact stays at original y)
+    tspan_tag = f'{ns}tspan'
+    for i, line in enumerate(lines):
+        attrs = {'x': '436', 'y': str(start_y + i * line_h), 'class': 'value'}
+        if i == 0:
+            attrs['id'] = 'quote_text'
+        el = etree.Element(tspan_tag, attrib=attrs)
+        el.text = line
+        parent.insert(text_idx + i, el)
+
+    attrs = {'x': '436', 'y': str(start_y + num * line_h), 'class': 'value', 'id': 'quote_author'}
+    el = etree.Element(tspan_tag, attrib=attrs)
+    el.text = f"~ {author_name}"
+    parent.insert(text_idx + num, el)
+
+
 def update_svg(svg_path, stats, quote):
     tree = etree.parse(svg_path)
     root = tree.getroot()
@@ -340,14 +397,8 @@ def update_svg(svg_path, stats, quote):
     justify_format(root, 'commit_data', stats['commits'], 22)
     justify_format(root, 'follower_data', stats['followers'], 10)
 
-    # Quote elements
-    quote_text_elem = root.find(".//*[@id='quote_text']")
-    if quote_text_elem is not None:
-        quote_text_elem.text = quote[0]
-
-    quote_author_elem = root.find(".//*[@id='quote_author']")
-    if quote_author_elem is not None:
-        quote_author_elem.text = f"~ {quote[1]}"
+    # Quote elements with word wrapping
+    update_quote(root, quote[0], quote[1])
 
     tree.write(svg_path, encoding='utf-8', xml_declaration=True)
     print(f"Updated {svg_path}")
