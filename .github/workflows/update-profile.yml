@@ -33,7 +33,7 @@ jobs:
 
       - name: Update profile stats
         env:
-          ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: BroKarim
         run: |
           python update_profile.py
