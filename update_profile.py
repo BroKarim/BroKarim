@@ -80,22 +80,33 @@ def graphql_request(func_name, query, variables):
 # Quote of the Day (api.quotable.io)
 # ============================================================
 def fetch_quote():
-    """Fetch a random inspirational quote"""
-    urls = [
-        "https://zenquotes.io/api/random",
-        "https://api.quotable.io/random?tags=technology|inspirational|programming",
+    """Fetch a random short inspirational quote (ideally ≤54 chars)"""
+    best = ("Code is poetry written in logic.", "Anonymous")
+    best_len = 999
+    attempts = [
+        ("https://zenquotes.io/api/random", {}),
+        ("https://api.quotable.io/random?tags=technology|inspirational|programming", {}),
+        ("https://api.quotable.io/random?tags=technology|inspirational|programming", {"verify": False}),
     ]
-    for url in urls:
+    for url, kwargs in attempts:
         try:
-            resp = requests.get(url, timeout=10)
+            resp = requests.get(url, timeout=10, **kwargs)
             if resp.status_code == 200:
                 data = resp.json()
                 if isinstance(data, list) and len(data) > 0:
-                    return data[0].get('q', ''), data[0].get('a', 'Unknown')
-                return data.get('content', ''), data.get('author', 'Unknown')
+                    text = data[0].get('q', '')
+                    author = data[0].get('a', 'Unknown')
+                else:
+                    text = data.get('content', '')
+                    author = data.get('author', 'Unknown')
+                if len(text) <= 54:
+                    return text, author
+                if len(text) < best_len:
+                    best = (text, author)
+                    best_len = len(text)
         except Exception:
             continue
-    return "Code is poetry written in logic.", "Anonymous"
+    return best
 
 
 # ============================================================
@@ -331,60 +342,13 @@ def justify_format(root, element_id, new_text, length=0):
 
 
 def update_quote(root, quote_text, author_name):
-    """Update quote text with word wrapping, shifting subsequent elements down."""
-    max_chars = 54
-    line_h = 16
-
-    quote_text_elem = root.find(".//*[@id='quote_text']")
-    quote_author_elem = root.find(".//*[@id='quote_author']")
-    if quote_text_elem is None:
-        return
-
-    parent = quote_text_elem.getparent()
-    # Get SVG namespace from root
-    tag = root.tag
-    ns = tag[tag.index('{'):tag.index('}') + 1] if '}' in tag else ''
-
-    children = list(parent)
-    text_idx = children.index(quote_text_elem)
-    start_y = int(quote_text_elem.get('y'))
-
-    # Word wrap
-    words = quote_text.split()
-    lines = []
-    cur = ''
-    for w in words:
-        if not cur:
-            cur = w
-        elif len(cur) + 1 + len(w) <= max_chars:
-            cur += ' ' + w
-        else:
-            lines.append(cur)
-            cur = w
-    if cur:
-        lines.append(cur)
-    num = len(lines)
-
-    # Remove all old quote elements (from text_idx up to Contact header)
-    for child in children[text_idx:]:
-        if child.get('x') == '390':
-            break
-        parent.remove(child)
-
-    # Insert wrapped lines + author (no shifting — Contact stays at original y)
-    tspan_tag = f'{ns}tspan'
-    for i, line in enumerate(lines):
-        attrs = {'x': '436', 'y': str(start_y + i * line_h), 'class': 'value'}
-        if i == 0:
-            attrs['id'] = 'quote_text'
-        el = etree.Element(tspan_tag, attrib=attrs)
-        el.text = line
-        parent.insert(text_idx + i, el)
-
-    attrs = {'x': '436', 'y': str(start_y + num * line_h), 'class': 'value', 'id': 'quote_author'}
-    el = etree.Element(tspan_tag, attrib=attrs)
-    el.text = f"~ {author_name}"
-    parent.insert(text_idx + num, el)
+    """Update quote text (short quotes only — no wrapping needed)."""
+    text_el = root.find(".//*[@id='quote_text']")
+    author_el = root.find(".//*[@id='quote_author']")
+    if text_el is not None:
+        text_el.text = quote_text
+    if author_el is not None:
+        author_el.text = f"~ {author_name}"
 
 
 def update_svg(svg_path, stats, quote):
